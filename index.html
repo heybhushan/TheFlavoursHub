@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CDN LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Text+Me+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Diplomata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>TheFlavourHub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(smoothie2.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: #fbeee5;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        #home {
+            width: 100%;
+            height: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            position: absolute;
+            width: 7rem;
+            top: 0rem;
+            left: 3rem;
+            transition: ease-in-out 1s;
+        }
+
+        .logo h1 {
+            position: absolute;
+            top: 1rem;
+            text-shadow: 1px 1px #988e8e;
+            font-family: 'Overpass', sans-serif;
+            left: 8.7rem;
+            transition: ease-in-out 1s;
+        }
+
+        .contain ul li {
+            float: left;
+            color: white;
+            font-size: 1.2rem;
+            position: relative;
+            left: 4rem;
+            font-weight: 700;
+            font-family: 'Overpass', sans-serif;
+            text-decoration: none;
+            list-style-type: none;
+            padding-right: 3rem;
+        }
+
+        .contain ul li:hover {
+            cursor: pointer;
+        }
+
+        .ordernow button {
+            position: relative;
+            font-family: 'Bree Serif', serif;
+            right: 6rem;
+            background-color: white;
+            color: #e79d5d;
+            font-weight: bold;
+            transition: ease-in-out 1s;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            font-size: 1.2rem;
+            border-radius: 30px;
+        }
+
+        .ordernow button:hover {
+            cursor: pointer;
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .delecious strong {
+            font-family: 'Notable', sans-serif;
+            color: rgb(255, 246, 254);
+            font-size: 10rem;
+            margin-left: 5rem;
+            text-shadow: 3px 2px #cac4c4;
+            top: 4rem;
+            position: relative;
+            letter-spacing: 5px;
+        }
+
+        .delecious strong:hover {
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .det p {
+            font-size: 2rem;
+            position: relative;
+            color: #ff7585;
+            transition: ease-in-out 1s;
+            font-family: 'Cantora One', sans-serif;
+            width: 433px;
+            left: 8rem;
+            bottom: -23rem;
+        }
+
+        .det p:hover {
+            color: #fc8c99;
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .det button {
+            position: relative;
+            font-family: 'Radio Canada', sans-serif;
+            background-color: transparent;
+            color: white;
+            left: 8rem;
+            color: #f77988;
+            bottom: -23rem;
+            transition: ease-in-out 1s;
+            border: 2px solid #f77988;
+            font-size: 1.5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 30px;
+        }
+
+        .det button:hover {
+            cursor: pointer;
+            color: white;
+            animation: pulse;
+            animation-duration: 2s;
+            border: 2px solid white;
+            background-color: #f77988;
+        }
+
+        #gallery {
+            width: 100%;
+            position: absolute;
+            top: 77rem;
+        }
+
+        .oursmoothie h2 {
+            color: #712c63;
+            float: right;
+            top: -4rem;
+            text-shadow: 1px 1px #151313;
+            font-size: 4rem;
+            transition: ease-in-out 1s;
+            right: 4rem;
+            position: relative;
+            font-family: 'Mochiy Pop P One', sans-serif;
+        }
+
+        .oursmoothie h2:hover {
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .small p {
+            width: 450px;
+            position: relative;
+            top: 5rem;
+            transition: ease-in-out 1s;
+            font-family: 'Text Me One', sans-serif;
+            color: #984b87;
+            font-weight: 800;
+            font-size: 1.5rem;
+            left: 3rem;
+        }
+
+        .small p:hover {
+            color: #712c63;
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .img-gallery {
+            width: 86%;
+            margin: 100px auto 50px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 214px;
+        }
+
+        .img-gallery img {
+            width: 100%;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            cursor: pointer;
+            border-radius: 10px;
+            transition: all 1s ease-in-out;
+        }
+
+        .img-gallery img:hover {
+            transition: 0.2s;
+            transform: scale(0.8) rotate(0deg);
+            border-radius: 20px;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            background-color: rgba(0, 0, 0, 0.696);
+            background-blend-mode: multiply;
+        }
+
+        .full-img {
+            width: 100%;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.9);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+
+        .full-img img {
+            width: 90%;
+            max-width: 500px;
+        }
+
+        .full-img span {
+            position: absolute;
+            top: 5%;
+            right: 5%;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .about {
+            width: 100%;
+            position: absolute;
+        }
+
+        .about-us h2 {
+            position: absolute;
+            top: 239rem;
+            font-weight: 400;
+            font-size: 4rem;
+            text-shadow: 1px 1px #151313;
+            left: 6rem;
+            float: left;
+            color: #712c63;
+            font-family: 'Luckiest Guy', cursive;
+            width: 426px;
+        }
+
+        .about-us h2:hover {
+            animation: pulse;
+            text-shadow: 1px 1px #151313;
+            animation-duration: 2s;
+        }
+
+        .img-1 {
+            display: flex;
+        }
+
+        .img-1 img {
+            width: 675px;
+            height: 725px;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            border-radius: 10px;
+            position: absolute;
+            top: 260rem;
+            left: 6rem;
+        }
+
+        .imggal-1 {
+            position: absolute;
+            top: 270rem;
+            color: #712c63;
+            text-shadow: 1px 1px #cab9b9;
+            font-family: 'Sen', sans-serif;
+            font-size: 2rem;
+            left: 60rem;
+            width: 900px;
+        }
+
+        #btn-2 {
+            position: relative;
+            font-family: 'Radio Canada', sans-serif;
+            background-color: transparent;
+            color: #f77988;
+            top: 2rem;
+            transition: ease-in-out 1s;
+            border: 2px solid #f77988;
+            font-size: 1.5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 30px;
+        }
+
+        #btn-2:hover {
+            cursor: pointer;
+            color: white;
+            animation: pulse;
+            animation-duration: 2s;
+            border: 2px solid white;
+            background-color: #f77988;
+        }
+
+        .img-2 img {
+            width: 675px;
+            height: 725px;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            border-radius: 10px;
+            position: absolute;
+            top: 310rem;
+            left: 6rem;
+        }
+
+        .imggal-2 {
+            position: absolute;
+            top: 320rem;
+            color: #712c63;
+            text-shadow: 1px 1px #cab9b9;
+            font-family: 'Sen', sans-serif;
+            font-size: 2rem;
+            left: 60rem;
+            width: 900px;
+        }
+
+        #btn-3 {
+            position: relative;
+            font-family: 'Radio Canada', sans-serif;
+            background-color: transparent;
+            color: #f77988;
+            top: 2rem;
+            transition: ease-in-out 1s;
+            border: 2px solid #f77988;
+            font-size: 1.5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 30px;
+        }
+
+        #btn-3:hover {
+            cursor: pointer;
+            color: white;
+            animation: pulse;
+            animation-duration: 2s;
+            border: 2px solid white;
+            background-color: #f77988;
+        }
+
+        .img-3 img {
+            width: 675px;
+            height: 780px;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            border-radius: 10px;
+            position: absolute;
+            top: 360rem;
+            left: 6rem;
+        }
+
+        .imggal-3 {
+            position: absolute;
+            top: 372rem;
+            color: #712c63;
+            text-shadow: 1px 1px #cab9b9;
+            font-family: 'Sen', sans-serif;
+            font-size: 2rem;
+            left: 60rem;
+            width: 900px;
+        }
+
+        #btn-4 {
+            position: relative;
+            font-family: 'Radio Canada', sans-serif;
+            background-color: transparent;
+            color: #f77988;
+            top: 2rem;
+            transition: ease-in-out 1s;
+            border: 2px solid #f77988;
+            font-size: 1.5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 30px;
+        }
+
+        #btn-4:hover {
+            cursor: pointer;
+            color: white;
+            animation: pulse;
+            animation-duration: 2s;
+            border: 2px solid white;
+            background-color: #f77988;
+        }
+
+        .img-4 img {
+            width: 675px;
+            height: 780px;
+            box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+            border-radius: 10px;
+            position: absolute;
+            top: 413rem;
+            left: 6rem;
+        }
+
+        .imggal-4 {
+            position: absolute;
+            top: 425rem;
+            color: #712c63;
+            text-shadow: 1px 1px #cab9b9;
+            font-family: 'Sen', sans-serif;
+            font-size: 2rem;
+            left: 60rem;
+            width: 900px;
+        }
+
+        #btn-5 {
+            position: relative;
+            font-family: 'Radio Canada', sans-serif;
+            background-color: transparent;
+            color: #f77988;
+            top: 2rem;
+            transition: ease-in-out 1s;
+            border: 2px solid #f77988;
+            font-size: 1.5rem;
+            padding: 0.7rem 1rem;
+            border-radius: 30px;
+        }
+
+        #btn-5:hover {
+            cursor: pointer;
+            color: white;
+            animation: pulse;
+            animation-duration: 2s;
+            border: 2px solid white;
+            background-color: #f77988;
+        }
+
+        #last {
+            width: 100%;
+        }
+
+        .subscribe {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .subscribe h1 {
+            text-shadow: 1px 1px #cab9b9;
+            position: relative;
+            font-size: 5.5rem;
+            top: 397rem;
+            font-weight: 800;
+            font-family: 'Lato', sans-serif;
+            color: #712c63;
+        }
+
+        .subscribe p {
+            position: relative;
+            top: 392rem;
+            font-family: 'Ysabeau Infant', sans-serif;
+            font-size: 2rem;
+            color: #712c63;
+        }
+
+        .email {
+            position: relative;
+            top: 395rem;
+        }
+
+        .email input {
+            height: 65px;
+            position: relative;
+            background: transparent;
+            width: 540px;
+            font-family: 'Lato', sans-serif;
+            padding-left: 5rem;
+            outline: none;
+            font-size: 1rem;
+            border-radius: 50px;
+            border: 1px solid #712c63;
+        }
+
+        .fa-envelope {
+            position: absolute;
+            left: 3rem;
+            top: 1.6rem;
+        }
+
+        .email button {
+            position: absolute;
+            background-color: #712c63;
+            color: white;
+            padding: 0.9rem 1.8rem;
+            font-family: 'Lato', sans-serif;
+            transition: ease-in-out 1s;
+            border: none;
+            font-size: 1.2rem;
+            top: 0.5rem;
+            right: 2rem;
+            border-radius: 50px;
+        }
+
+        .email button:hover {
+            cursor: pointer;
+            background-color: transparent;
+            border: 1px solid #712c63;
+            color: #712c63;
+            font-weight: 900;
+        }
+
+        footer {
+            background-color: #f77988;
+            display: flex;
+            width: 100%;
+            justify-content: inherit;
+            align-items: center;
+            top: 394rem;
+            height: 23%;
+            position: relative;
+        }
+
+        .foot img {
+            width: 7rem;
+            position: relative;
+            top: 3.2rem;
+        }
+
+        .foot h1 {
+            text-shadow: 1px 1px #988e8e;
+            position: relative;
+            font-size: 1.7rem;
+            font-family: 'Overpass', sans-serif;
+            transition: ease-in-out 1s;
+            left: 6rem;
+            top: -1.5rem;
+        }
+
+        .containn ul li {
+            float: left;
+            color: black;
+            font-size: 1.2rem;
+            text-shadow: 1px 1px #988e8e;
+            position: relative;
+            top: 1rem;
+            left: 33rem;
+            font-weight: 700;
+            font-family: 'Overpass', sans-serif;
+            text-decoration: none;
+            list-style-type: none;
+            padding-right: 3rem;
+        }
+
+        .containn ul li:hover {
+            cursor: pointer;
+        }
+
+        .social {
+            top: 1rem;
+            position: relative;
+            left: 57rem;
+
+        }
+
+        .fa-twitter {
+            position: relative;
+            font-size: 2rem;
+            text-shadow: 1px 1px #988e8e;
+            padding: 2rem 2rem;
+        }
+
+        .fa-instagram {
+            position: relative;
+            text-shadow: 1px 1px #988e8e;
+            font-size: 2rem;
+            padding: 2rem 2rem;
+        }
+
+        .fa-linkedin-square {
+            text-shadow: 1px 1px #988e8e;
+            position: relative;
+            font-size: 2rem;
+            padding: 2rem 2rem;
+        }
+
+        @media only screen and (max-width: 360px) {
+            html {
+                height: 100%;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 100%;
+                position: relative;
+                min-height: 100%;
+                margin: 0;
+                box-sizing: border-box;
+                /* background-color: #151313; */
+            }
+
+            #home {
+                width: 100%;
+                display: block;
+            }
+            .ordernow button {
+                position: relative;
+                font-family: 'Bree Serif', serif;
+                background-color: white;
+                left: 17.7rem;
+                bottom: 0.5rem;
+                color: #e79d5d;
+                font-weight: bold;
+                transition: ease-in-out 1s;
+                padding: 0.3rem 0.5rem;
+                border: none;
+                font-size: 0.7rem;
+            }
+
+            .about-us h2 {
+                position: absolute;
+                top: 243rem;
+                font-weight: 400;
+                font-size: 2rem;
+                text-shadow: 1px 1px #151313;
+                left: 2rem;
+                float: left;
+                width: 304px;
+            }
+
+            #about {
+                width: 100%;
+                top: 45rem;
+                position: absolute;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            html {
+                height: 100%;
+                box-sizing: border-box;
+            }
+
+            body {
+                width: 100%;
+                position: relative;
+                min-height: 100%;
+                margin: 0;
+                box-sizing: border-box;
+                /* background-color: #151313; */
+            }
+
+            #home {
+                width: 100%;
+                display: block;
+            }
+
+            .logo img {
+                position: absolute;
+                width: 3.8rem;
+                top: 0rem;
+                left: 0rem;
+                transition: ease-in-out 1s;
+            }
+
+            .logo h1 {
+                position: absolute;
+                top: 0.4rem;
+                text-shadow: 1px 1px #988e8e;
+                font-family: 'Overpass', sans-serif;
+                left: 3rem;
+                font-size: 0.9rem;
+                transition: ease-in-out 1s;
+            }
+
+            .contain ul li {
+                display: none;
+            }
+
+            .ordernow button {
+                position: relative;
+                font-family: 'Bree Serif', serif;
+                background-color: white;
+                left: 19rem;
+                bottom: 0.5rem;
+                color: #e79d5d;
+                font-weight: bold;
+                transition: ease-in-out 1s;
+                padding: 0.3rem 0.5rem;
+                border: none;
+                font-size: 0.7rem;
+            }
+
+            #New {
+                width: 100%;
+                display: block;
+            }
+
+            .delecious strong {
+                font-size: 1.8rem;
+                top: -5rem;
+                left: -4rem;
+                position: relative;
+                letter-spacing: 3px;
+            }
+
+            .det p {
+                font-size: 0.5rem;
+                position: relative;
+                width: 136px;
+                left: 1rem;
+                bottom: 2.9rem;
+            }
+
+            .det button {
+                position: relative;
+                left: 1rem;
+                bottom: 3rem;
+                font-size: 0.4rem;
+                padding: 0.1rem 0.3rem;
+                border: 1px solid #f77988;
+            }
+
+            #gallery {
+                width: 100%;
+                position: absolute;
+                top: 16rem;
+            }
+
+            .oursmoothie h2 {
+                float: right;
+                top: -1rem;
+                text-shadow: 1px 1px #151313;
+                font-size: 0.8rem;
+                transition: ease-in-out 1s;
+                right: 0.8rem;
+                position: relative;
+            }
+
+            .small p {
+                width: 200px;
+                position: relative;
+                top: 1rem;
+                transition: ease-in-out 1s;
+                font-weight: 800;
+                font-size: 0.7rem;
+                left: 1rem;
+            }
+
+            .img-gallery {
+                width: 80%;
+                margin: 0px auto 50px;
+                position: relative;
+                top: -4rem;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                grid-gap: 43px;
+            }
+
+            #about {
+                width: 100%;
+                top: 64rem;
+                position: absolute;
+            }
+
+            .about-us h2 {
+                position: absolute;
+                top: 243rem;
+                font-weight: 400;
+                font-size: 2rem;
+                text-shadow: 1px 1px #151313;
+                left: 3rem;
+                float: left;
+                width: 317px;
+            }
+
+            .img-1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .img-1 img {
+                width: 283px;
+                height: 390px;
+                box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+                border-radius: 10px;
+                position: absolute;
+                top: 251rem;
+                left: 3.5rem;
+            }
+
+            .imggal-1 {
+                position: absolute;
+                top: 276rem;
+                color: #712c63;
+                text-shadow: 0.5px 0.5px #cab9b9;
+                font-size: 0.7rem;
+                left: 3rem;
+                width: 317px;
+            }
+
+            #btn-2 {
+                position: relative;
+                top: 0rem;
+                transition: ease-in-out 1s;
+                border: 1px solid #f77988;
+                font-size: 0.4rem;
+                padding: 0.1rem 0.3rem;
+                border: 1px solid #f77988;
+            }
+
+            .img-2 img {
+                width: 283px;
+                height: 390px;
+                box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+                border-radius: 10px;
+                position: absolute;
+                top: 287rem;
+                left: 3.5rem;
+            }
+
+            .imggal-2 {
+                position: absolute;
+                top: 312rem;
+                color: #712c63;
+                text-shadow: 0.5px 0.5px #cab9b9;
+                font-size: 0.7rem;
+                left: 3rem;
+                width: 315px;
+            }
+
+            #btn-3 {
+                position: relative;
+                top: 0rem;
+                transition: ease-in-out 1s;
+                border: 1px solid #f77988;
+                font-size: 0.4rem;
+                padding: 0.1rem 0.3rem;
+                border: 1px solid #f77988;
+            }
+
+            .img-3 img {
+                width: 283px;
+                height: 390px;
+                box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+                border-radius: 10px;
+                position: absolute;
+                top: 322rem;
+                left: 3.5rem;
+            }
+
+            .imggal-3 {
+                position: absolute;
+                top: 347rem;
+                color: #712c63;
+                text-shadow: 0.5px 0.5px #cab9b9;
+                font-size: 0.7rem;
+                left: 3rem;
+                width: 315px;
+            }
+
+            #btn-4 {
+                position: relative;
+                top: 0rem;
+                transition: ease-in-out 1s;
+                border: 1px solid #f77988;
+                font-size: 0.4rem;
+                padding: 0.1rem 0.3rem;
+                border: 1px solid #f77988;
+            }
+
+            .img-4 img {
+                width: 283px;
+                height: 390px;
+                box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+                border-radius: 10px;
+                position: absolute;
+                top: 356rem;
+                left: 3.5rem;
+            }
+
+            .imggal-4 {
+                position: absolute;
+                top: 381rem;
+                color: #712c63;
+                text-shadow: 0.5px 0.5px #cab9b9;
+                font-size: 0.7rem;
+                left: 3rem;
+                width: 310px;
+            }
+
+            #btn-5 {
+                position: relative;
+                top: 0rem;
+                transition: ease-in-out 1s;
+                border: 1px solid #f77988;
+                font-size: 0.4rem;
+                padding: 0.1rem 0.3rem;
+                border: 1px solid #f77988;
+            }
+
+            #last {
+                width: 100%;
+                position: relative;
+                top: 18rem;
+            }
+
+            .subscribe {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .subscribe h1 {
+                text-shadow: 0.5px 0.5px #cab9b9;
+                position: relative;
+                font-size: 2rem;
+                top: 397rem;
+                font-weight: 800;
+            }
+
+            .subscribe p {
+                position: relative;
+                top: 395rem;
+                font-size: 1rem;
+            }
+
+            .email input {
+                height: 35px;
+                position: relative;
+                background: transparent;
+                width: 240px;
+                padding-left: 3rem;
+                outline: none;
+                font-size: 0.8rem;
+                border-radius: 50px;
+                border: 1px solid #712c63;
+            }
+
+            .fa-envelope {
+                position: absolute;
+                left: 1.6rem;
+                font-size: 0.8rem;
+                top: 0.9rem;
+            }
+
+            .email button {
+                position: absolute;
+                padding: 0.5rem 0.8rem;
+                transition: ease-in-out 1s;
+                border: none;
+                font-size: 0.5rem;
+                top: 0.4rem;
+                right: 1rem;
+                border-radius: 50px;
+            }
+
+            footer {
+                width: 100%;
+                position: relative;
+                top: 409rem;
+                justify-content: space-between;
+                align-items: center;
+                display: flex;
+                height: 7rem;
+            }
+
+            .foot img {
+                width: 4rem;
+                position: relative;
+                top: 0.8rem;
+            }
+
+            .foot h1 {
+                text-shadow: 0.5px 0.5px #988e8e;
+                position: relative;
+                font-size: 0.9rem;
+                transition: ease-in-out 1s;
+                left: 3.1rem;
+                top: -2rem;
+            }
+
+            .containn ul li {
+                display: none;
+            }
+
+            .social {
+                top: -0.5rem;
+                position: relative;
+                left: -2rem;
+
+            }
+
+            .fa-twitter {
+                position: relative;
+                font-size: 1rem;
+                text-shadow: 0.5px 0.5px #988e8e;
+                padding: 0.9rem 0.9rem;
+            }
+
+            .fa-instagram {
+                position: relative;
+                font-size: 1rem;
+                text-shadow: 0.5px 0.5px #988e8e;
+                padding: 0.9rem 0.9rem;
+            }
+
+            .fa-linkedin-square {
+                position: relative;
+                font-size: 1rem;
+                text-shadow: 0.5px 0.5px #988e8e;
+                padding: 0.9rem 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="home">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png"></a>
+            <a href="index.html">
+                <h1>TheFlavourHub</h1>
+            </a>
+        </div>
+        <div class="contain">
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="ordernow">
+            <a href="index1.html"><button>Order Now</button></a>
+        </div>
+    </section>
+    <br><br>
+    <section id="New">
+        <div class="delecious">
+            <strong>
+                DELICIOUS
+            </strong>
+            <strong>
+                SMOOTHIE
+            </strong>
+        </div>
+        <div class="det">
+            <p>
+                Greenhouse's Organic Boosters bring you organic plant nutrients form,served in pocket sized glass
+                bottles.
+            </p>
+            <a href="index1.html"><button>Our Menu</button></a>
+        </div>
+    </section>
+    <br><br><br>
+    <section id="gallery">
+        <div class="oursmoothie">
+            <h2> OUR SMOOTHIE</h2>
+        </div>
+        <div class="small">
+            <p>
+                You can see several photo galleries from various outcomes who have visited our restaurant
+            </p>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="full-img" id="fullimgBox">
+            <img src="s1.jpg" id="fullimg">
+            <span onclick="closefullimg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="s1.jpg" onclick="openfullimg(this.src)">
+            <img src="s2.jpg" onclick="openfullimg(this.src)">
+            <img src="s3.jpg" onclick="openfullimg(this.src)">
+            <img src="s4.jpg" onclick="openfullimg(this.src)">
+            <img src="s5.jpg" onclick="openfullimg(this.src)">
+            <img src="s6.jpg" onclick="openfullimg(this.src)">
+            <img src="s7.jpg" onclick="openfullimg(this.src)">
+            <img src="s8.jpg" onclick="openfullimg(this.src)">
+            <img src="s9.jpg" onclick="openfullimg(this.src)">
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section id="about">
+        <div class="about-us">
+            <h2>
+                ABOUT US AND DRINK & FOOD QUALITY
+            </h2>
+        </div>
+        <div class="img-1">
+            <img src="s10.jpg">
+            <div class="imggal-1">
+                <span class="imggal-a">These <strong>Smoothie</strong>
+                    is a delightful beverage made by blending fresh fruits, vegetables, and other nutritious
+                    ingredients. Bursting with vibrant colors and flavors, smoothies offer a refreshing and convenient
+                    way to nourish the body.</span><span id="invisible-1" style="display: none;">
+                    They can be customized with various additions like yogurt, protein powder, or superfoods, making
+                    them a versatile and satisfying option for any taste or dietary preference. Smoothies are a
+                    fantastic way to pack in vitamins, minerals, and antioxidants, supporting overall well-being and
+                    promoting a balanced lifestyle.</span>
+                <button id="btn-2" onclick="More2()">Read Mode</button>
+            </div>
+        </div>
+        <div class="img-2">
+            <img src="s2.jpg">
+            <div class="imggal-2">
+                <span class="imggal1-a">Deliciously sweet, the strawberry bubble gum shake delights taste buds with its
+                    creamy blend of fruity goodness and nostalgic chewy flavors. A refreshing treat that's impossible to
+                    resist irresistible, whimsical delight.</span><span id="invisible-2" style="display: none;">
+                    Sipping this delightful shake brings back childhood memories, as the strawberry flavor bursts
+                    through every sip, accompanied by the satisfying chewiness of bubble gum. A truly nostalgic
+                    indulgence.</span>
+                <button id="btn-3" onclick="More3()">Read Mode</button>
+            </div>
+        </div>
+        <div class="img-3">
+            <img src="s11.jpg">
+            <div class="imggal-3">
+                <span class="imggal1-a">Creamy Cadbury chocolate shake made with rich, velvety cocoa, blended to
+                    perfection for a decadent and indulgent treat that satisfies your chocolate cravings Creamy, velvety
+                    Cadbury chocolate shake indulgence delecious.</span><span id="invisible-3" style="display: none;">
+                    Savor the lusciousness of a creamy Cadbury chocolate shake, crafted with rich cocoa for an
+                    irresistible, indulgent treat that satisfies your sweet tooth cravings to perfection.</span>
+                <button id="btn-4" onclick="More4()">Read Mode</button>
+            </div>
+        </div>
+        <div class="img-4">
+            <img src="s12.jpg">
+            <div class="imggal-4">
+                <span class="imggal1-a">Refreshing and vibrant, the mango bubble shake is a delightful blend of juicy
+                    mangoes, creamy milk, and tapioca pearls. Experience tropical bliss with every sip of this fruity
+                    and fun beverage now it is so delecious.</span><span id="invisible-4" style="display: none;">
+                    Escape to a tropical paradise with the irresistible mango bubble shake, featuring luscious mangoes,
+                    creamy milk, and delightful tapioca pearls for a refreshing and exotic flavor explosion in every
+                    sip.</span>
+                <button id="btn-5" onclick="More5()">Read Mode</button>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section id="last">
+        <div class="subscribe">
+            <h1>
+                SUBSCRIBE TO US
+            </h1>
+            <p>
+                Signup for TheFlavourHub newsletter
+            </p>
+            <div class="email">
+                <input type="email" placeholder="Enter email address">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </section>
+    <footer>
+        <div class="foot">
+            <a href="index.html"><img src="logo.png"></a>
+            <a href="index.html">
+                <h1>TheFlavourHub</h1>
+            </a>
+        </div>
+        <div class="containn">
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Gallery</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="social">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </div>
+    </footer>
+
+    <script src="hub.js"></script>
+</body>
+
+</html>
